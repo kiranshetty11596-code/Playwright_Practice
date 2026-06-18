@@ -5,7 +5,7 @@ module.exports=defineConfig({
     retries:0,
   
     use:{
-        headless:false,
+        headless:true,
         baseURL:'https://www/saucedemo.com',
         viewport:null,
         launchOptions:{args:['--start-maximized']}
